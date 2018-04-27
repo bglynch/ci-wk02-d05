@@ -8,20 +8,28 @@
     <!--Jquery-->
     <!--must load to cloud 9 with https-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="effects.js"></script>
     
     <title>Jquery Starter</title>
     <style type="text/css">
-        p{
-            font-size:1.5em;
+        #myParagraph{
             font-family: sans-serif;
+            background-color:black;
+            color:white;
+            width:200px;
+            height:200px;
+            position:absolute;
+            top:150px;
+            left:40%;
+            display:none;
+            
         }
     </style>
 </head>
 <body>
-    <p>This is a paragraph. No Latin Here</p>
+    <button id="myButtom">Button</button>
+    <p id="myParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dolore distinctio eos commodi impedit veniam officiis, nisi aliquam sint consequuntur, quis, asperiores architecto! Debitis minus earum atque, numquam dolore unde?</p>
+    <p>Do I stay or do I go?</p>
     
-   <script>
-       $("p").css("background-color", "lemonchiffon");
-   </script>
 </body>
 </html>
